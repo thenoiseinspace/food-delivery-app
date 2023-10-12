@@ -29,6 +29,7 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
+      {/* this is the problem section */}
       {/* <Expenses items={expenses} /> */}
       <ExpenseItem
         title={expenses[0].title}
